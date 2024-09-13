@@ -1,0 +1,1456 @@
+{
+  "data": {
+    "organization": {
+      "id": "2f009e2e-5391-4ae4-80f9-a60e40e40879",
+      "label": "Moodle",
+      "timeZone": "Asia/Tokyo",
+      "emailDomains": ["moodle.com", "gmail.com", "fwd.planview.com"],
+      "supportAccessExpiry": 1723828615233,
+      "repositories": [
+        {
+          "id": "825d4826-e927-4b71-a625-1fad76c0b8be",
+          "label": "Digital.AI Tasktop",
+          "connectorKind": "com.tasktop.connector.versionone",
+          "needsRecovery": false
+        },
+        {
+          "id": "5ead1f40-5db7-484c-b9b7-a9718cd62a30",
+          "label": "Jama5427",
+          "connectorKind": "com.tasktop.connector.jama",
+          "needsRecovery": false
+        },
+        {
+          "id": "b06d9d74-a5a6-4f0f-b6e5-00a70e33faf6",
+          "label": "JIRA ",
+          "connectorKind": "com.tasktop.connector.atlassian.jira",
+          "needsRecovery": false
+        },
+        {
+          "id": "38e4b692-e825-4955-96ac-bd7a115ce492",
+          "label": "JIRA Demo Viz",
+          "connectorKind": "com.tasktop.connector.atlassian.jira",
+          "needsRecovery": false
+        },
+        {
+          "id": "d7d732ab-3b6f-4306-b71c-e387c7c451ba",
+          "label": "Jira field - ignore",
+          "connectorKind": "com.tasktop.connector.atlassian.jira",
+          "needsRecovery": false
+        },
+        {
+          "id": "4571b3ea-0010-47cf-afd7-39af1b009383",
+          "label": "jira tasktop",
+          "connectorKind": "com.tasktop.connector.atlassian.jira",
+          "needsRecovery": false
+        },
+        {
+          "id": "2be2f714-8320-4aef-b2ef-5582efd9775c",
+          "label": "Moodle Jira 1",
+          "connectorKind": "com.tasktop.connector.atlassian.jira",
+          "needsRecovery": false
+        },
+        {
+          "id": "2f029faf-fae4-40cf-9aae-ce368dc7c70d",
+          "label": "Moodle Jira II",
+          "connectorKind": "com.tasktop.connector.atlassian.jira",
+          "needsRecovery": false
+        },
+        {
+          "id": "a116a94c-e0a3-4d45-8710-b84c8ccb50c6",
+          "label": "sadhbj",
+          "connectorKind": "com.tasktop.connector.atlassian.jira",
+          "needsRecovery": false
+        },
+        {
+          "id": "0d63f3c6-7ae1-4a1c-8bf2-562dfcecc2e0",
+          "label": "test jira",
+          "connectorKind": "com.tasktop.connector.atlassian.jira",
+          "needsRecovery": false
+        },
+        {
+          "id": "20e5a3ad-2e0a-419b-8960-a602af9c04bc",
+          "label": "trello",
+          "connectorKind": "com.tasktop.connector.trello",
+          "needsRecovery": false
+        }
+      ],
+      "navigationGroups": [
+        {
+          "id": "a0a39280-b76c-44e7-a74e-e2a2addd55c1",
+          "label": "Region C.2",
+          "version": 0,
+          "parentGroupId": "eafa08fe-ff7b-4145-9fa8-05be9cdbb2b4",
+          "valueStreams": []
+        },
+        {
+          "id": "442f74d6-e912-453c-a313-11a50bd459b6",
+          "label": "Region C.3",
+          "version": 0,
+          "parentGroupId": "eafa08fe-ff7b-4145-9fa8-05be9cdbb2b4",
+          "valueStreams": []
+        },
+        {
+          "id": "fbbd0965-d99c-4950-92a7-aa8cf1026155",
+          "label": "Phone Apps (region specific)",
+          "version": 0,
+          "parentGroupId": "a7c6b32d-cdd2-48b7-bc58-79be9754457f",
+          "valueStreams": []
+        },
+        {
+          "id": "3722bd65-1f4c-4824-8627-f8ce0d688fe2",
+          "label": "Region C.1",
+          "version": 0,
+          "parentGroupId": "eafa08fe-ff7b-4145-9fa8-05be9cdbb2b4",
+          "valueStreams": []
+        },
+        {
+          "id": "8c6f9973-73e8-4502-b4e7-1e3876f303bc",
+          "label": "Products for Seniors",
+          "version": 0,
+          "parentGroupId": "6b6112dd-5462-4c96-93a2-97fc1a7fc7c5",
+          "valueStreams": []
+        },
+        {
+          "id": "12eff537-6c0f-4acc-bf8c-cecce51bd166",
+          "label": "2554.2",
+          "version": 0,
+          "parentGroupId": "dd26d43d-3f8e-4eca-992d-322b0a06d4ba",
+          "valueStreams": [
+            {
+              "id": "6148d3c0-62ea-48f5-a3bf-ea5ee7dc7544",
+              "label": "Louis"
+            },
+            {
+              "id": "de73eb9f-2198-404b-ba34-da65497fdaac",
+              "label": "Z"
+            }
+          ]
+        },
+        {
+          "id": "de5a81b1-20f7-414e-b3c9-bf25240806cc",
+          "label": "jv cool products 😎",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": [
+            {
+              "id": "31002de3-4c62-4934-8acb-4716be02fdaf",
+              "label": "A Standalone"
+            },
+            {
+              "id": "0d121c62-3e6b-4525-9554-8682466ed2c8",
+              "label": "jv - moodle0"
+            },
+            {
+              "id": "57236766-4403-476f-b08e-0ecaf33247a6",
+              "label": "jv copy aa - Reprocess test"
+            }
+          ]
+        },
+        {
+          "id": "b2a8e28d-1028-4f50-92f3-ecc18fb35f66",
+          "label": "Products for Kids",
+          "version": 0,
+          "parentGroupId": "a7c6b32d-cdd2-48b7-bc58-79be9754457f",
+          "valueStreams": [
+            {
+              "id": "6148d3c0-62ea-48f5-a3bf-ea5ee7dc7544",
+              "label": "Louis"
+            }
+          ]
+        },
+        {
+          "id": "f109a6fe-e2bb-4645-8463-4f03e99e8b82",
+          "label": "Region A.1",
+          "version": 0,
+          "parentGroupId": "1a7b6ee5-7778-4fd6-9db0-3071b0b1bbc6",
+          "valueStreams": []
+        },
+        {
+          "id": "eafa08fe-ff7b-4145-9fa8-05be9cdbb2b4",
+          "label": "Division C",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": []
+        },
+        {
+          "id": "b6b6abf8-05ca-4d5c-93b0-2cd44f3b6552",
+          "label": "Top Secret",
+          "version": 0,
+          "parentGroupId": "f109a6fe-e2bb-4645-8463-4f03e99e8b82",
+          "valueStreams": []
+        },
+        {
+          "id": "56a5b4ad-f941-4ec1-99e4-17addc3a3961",
+          "label": "A-FlowOptimizer",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": [
+            {
+              "id": "0b3e6a49-566e-4fb3-842d-a1108c15ee84",
+              "label": "Mobile Account Management"
+            }
+          ]
+        },
+        {
+          "id": "1a7b6ee5-7778-4fd6-9db0-3071b0b1bbc6",
+          "label": "Division A",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": [
+            {
+              "id": "c82ec645-d255-49a8-91bf-fd3d06ca8915",
+              "label": "Duplicate Okelsii Test"
+            }
+          ]
+        },
+        {
+          "id": "9d934626-ee43-45b2-a898-a2fab0b5480b",
+          "label": "Aggregated",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": [
+            {
+              "id": "57236766-4403-476f-b08e-0ecaf33247a6",
+              "label": "jv copy aa - Reprocess test"
+            },
+            {
+              "id": "5fbb09c1-c9a3-4b08-8452-e08172fbc15a",
+              "label": "Oleksii Test 2"
+            },
+            {
+              "id": "d31f1df8-3957-4ea3-8d25-8be0da5ab940",
+              "label": "Test 2"
+            }
+          ]
+        },
+        {
+          "id": "389cd0e6-c320-43d5-93b9-f036d5e9b4de",
+          "label": "Phone Apps",
+          "version": 0,
+          "parentGroupId": "f109a6fe-e2bb-4645-8463-4f03e99e8b82",
+          "valueStreams": []
+        },
+        {
+          "id": "b6050031-0a7c-4d98-988c-053f1183bb06",
+          "label": "Longgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": []
+        },
+        {
+          "id": "9f1c6d49-9bbe-41a7-ac32-5f37e43b6bd4",
+          "label": "Phone Apps",
+          "version": 0,
+          "parentGroupId": "442f74d6-e912-453c-a313-11a50bd459b6",
+          "valueStreams": [
+            {
+              "id": "c0e1580e-a01e-445a-ab91-3840d3bdfee1",
+              "label": "Change Collection"
+            },
+            {
+              "id": "0b3e6a49-566e-4fb3-842d-a1108c15ee84",
+              "label": "Mobile Account Management"
+            },
+            {
+              "id": "f3a50a2b-879c-40bd-ab90-8e7874d55f00",
+              "label": "Mobile Backend API"
+            }
+          ]
+        },
+        {
+          "id": "c6a80c72-0d1b-4120-bc03-c596c79b41aa",
+          "label": "ReprocessingPortfolio",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": [
+            {
+              "id": "0b3e6a49-566e-4fb3-842d-a1108c15ee84",
+              "label": "Mobile Account Management"
+            }
+          ]
+        },
+        {
+          "id": "0a1501fe-ce86-47b5-a379-53aa4d384b38",
+          "label": "Region A.3",
+          "version": 0,
+          "parentGroupId": "1a7b6ee5-7778-4fd6-9db0-3071b0b1bbc6",
+          "valueStreams": []
+        },
+        {
+          "id": "df2ab741-f991-4b82-807e-a036b84af2a4",
+          "label": "test",
+          "version": 0,
+          "parentGroupId": "1a7b6ee5-7778-4fd6-9db0-3071b0b1bbc6",
+          "valueStreams": [
+            {
+              "id": "7a305615-17e4-4adc-981b-aa2a05f91244",
+              "label": "jv - test verify reprocess"
+            },
+            {
+              "id": "6148d3c0-62ea-48f5-a3bf-ea5ee7dc7544",
+              "label": "Louis"
+            }
+          ]
+        },
+        {
+          "id": "dd26d43d-3f8e-4eca-992d-322b0a06d4ba",
+          "label": "2554",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": [
+            {
+              "id": "c0e1580e-a01e-445a-ab91-3840d3bdfee1",
+              "label": "Change Collection"
+            },
+            {
+              "id": "fd90942b-cdde-40fb-b601-a7beb6464660",
+              "label": "testing navigator"
+            }
+          ]
+        },
+        {
+          "id": "df77cbe6-1368-4c5b-b8bc-7571d922c482",
+          "label": "Region B.1",
+          "version": 0,
+          "parentGroupId": "1653d628-0a30-457f-b281-3d6c48f4e330",
+          "valueStreams": []
+        },
+        {
+          "id": "1653d628-0a30-457f-b281-3d6c48f4e330",
+          "label": "Division B",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": []
+        },
+        {
+          "id": "8c95a022-bb2d-4626-9375-b61ea2787d82",
+          "label": "Group 1",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": []
+        },
+        {
+          "id": "df1b800b-a75d-451c-a383-c2968ba81eba",
+          "label": "Products for Sea Captains",
+          "version": 0,
+          "parentGroupId": "442f74d6-e912-453c-a313-11a50bd459b6",
+          "valueStreams": []
+        },
+        {
+          "id": "d8a8ef3f-d08e-4fbe-b221-3657d2163784",
+          "label": "Region B.3",
+          "version": 0,
+          "parentGroupId": "1653d628-0a30-457f-b281-3d6c48f4e330",
+          "valueStreams": []
+        },
+        {
+          "id": "a7c6b32d-cdd2-48b7-bc58-79be9754457f",
+          "label": "Region A.2",
+          "version": 0,
+          "parentGroupId": "1a7b6ee5-7778-4fd6-9db0-3071b0b1bbc6",
+          "valueStreams": []
+        },
+        {
+          "id": "6b6112dd-5462-4c96-93a2-97fc1a7fc7c5",
+          "label": "Region B.2",
+          "version": 0,
+          "parentGroupId": "1653d628-0a30-457f-b281-3d6c48f4e330",
+          "valueStreams": []
+        },
+        {
+          "id": "67bec8d5-132e-448d-a005-060292ca24a2",
+          "label": "2554.1",
+          "version": 0,
+          "parentGroupId": "dd26d43d-3f8e-4eca-992d-322b0a06d4ba",
+          "valueStreams": [
+            {
+              "id": "ff5edeb0-21df-4a17-9fb1-6bd953e0177b",
+              "label": "jv - test verify reprocess CLONE"
+            }
+          ]
+        },
+        {
+          "id": "2fb2b0d5-f9cf-4b77-9234-d5e55236c099",
+          "label": "Phone Apps",
+          "version": 0,
+          "parentGroupId": "6b6112dd-5462-4c96-93a2-97fc1a7fc7c5",
+          "valueStreams": []
+        },
+        {
+          "id": "df5d500a-8bae-4fe0-8c33-f2923361c190",
+          "label": "X",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": []
+        },
+        {
+          "id": "0b0c43eb-7469-422a-ad64-090e564ef784",
+          "label": "A",
+          "version": 0,
+          "parentGroupId": null,
+          "valueStreams": []
+        }
+      ],
+      "valueStreams": [
+        {
+          "id": "81076be3-a9df-4cd1-9a13-40358dc99b6c",
+          "label": "A",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "31002de3-4c62-4934-8acb-4716be02fdaf",
+          "label": "A Standalone",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 1 hr, 1 min",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "c0e1580e-a01e-445a-ab91-3840d3bdfee1",
+          "label": "Change Collection",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 3 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "851e0dde-7dea-4766-9090-1e0f08bf9537",
+          "label": "Duplicate Mobile Account Management",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 2 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "c82ec645-d255-49a8-91bf-fd3d06ca8915",
+          "label": "Duplicate Okelsii Test",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 3 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "a124e487-b75f-4131-afdf-045e4b50072d",
+          "label": "Duplicate Oleksii Test 2",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 3 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "0d121c62-3e6b-4525-9554-8682466ed2c8",
+          "label": "jv - moodle0",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 3 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "7a305615-17e4-4adc-981b-aa2a05f91244",
+          "label": "jv - test verify reprocess",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [
+              "auth0|6282dffa1e4eef00696a3214",
+              "auth0|640fa6f1d96c8fd735a5393e",
+              "auth0|5d825804e252fc0de685cc7b"
+            ],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "ff5edeb0-21df-4a17-9fb1-6bd953e0177b",
+          "label": "jv - test verify reprocess CLONE",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 2 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [
+              "auth0|6282dffa1e4eef00696a3214",
+              "auth0|640fa6f1d96c8fd735a5393e",
+              "auth0|5d825804e252fc0de685cc7b"
+            ],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "57236766-4403-476f-b08e-0ecaf33247a6",
+          "label": "jv copy aa - Reprocess test",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 3 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "6148d3c0-62ea-48f5-a3bf-ea5ee7dc7544",
+          "label": "Louis",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2024-01-16",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 1 hr, 1 min",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "bc3ac218-d7cd-4c90-9699-9541a7560fe1",
+          "label": "Louis 2",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 1 hr, 1 min",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "77a5ba81-0288-4156-9626-feaac437c3a3",
+          "label": "Louis 3",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": true,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "0b3e6a49-566e-4fb3-842d-a1108c15ee84",
+          "label": "Mobile Account Management",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 3 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "f3a50a2b-879c-40bd-ab90-8e7874d55f00",
+          "label": "Mobile Backend API",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-09-19",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 1 hr, 1 min",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "a2d87497-a7ea-4c25-8246-07bd17c6b97f",
+          "label": "Mobile Optimizer",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": true,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "c5ce0b7a-a6ad-4cc7-bb53-40398bb1882e",
+          "label": "Moodle Clone 1",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "e0a3f3fd-5f7d-4944-8828-b6e704c33117",
+          "label": "Moodle2",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "a5e83cee-ab4d-4543-87bc-138e2b7ebfe3",
+          "label": "New Duplicate Oleksii Test 2",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "cfb7b4e3-d204-4884-9fa4-7a38767366fc",
+          "label": "New product Andrii",
+          "isMetricsProcessingDisabled": true,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": true,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "faf483e2-859d-45a0-88b7-e8ccdfb91a2e",
+          "label": "Oleksii Test",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "5fbb09c1-c9a3-4b08-8452-e08172fbc15a",
+          "label": "Oleksii Test 2",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19859 days, 5 hrs, 6 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "4e46ea7e-702b-4978-9eaf-86463eb76717",
+          "label": "Oleksii Test 2 Duplicate",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "79c3f7f8-3a75-4c66-a8ee-6b8566c91767",
+          "label": "Oleksii Test 3",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 2 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "9f05b5bc-b92e-4aec-abc0-a319d65d8b44",
+          "label": "Oleksii Test 4",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "57bef596-8cd4-4b4b-8509-1b853b6ed08b",
+          "label": "Oleksii Test 5",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": true,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "740c290f-5154-4381-955d-aeb9941c5676",
+          "label": "Oleksii Test May17",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": true,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "fecdee04-a98c-4c52-8e3c-09c4db9f3948",
+          "label": "Oleksii Test Unmapped",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": true,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "60471e1f-dda6-47e5-9f5c-edd7b0a831d7",
+          "label": "P1",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "7577e0f5-4c5f-4b6f-89e0-07ae3002bdad",
+          "label": "standalone",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "5d154baf-deee-440d-90aa-30edc0b22cb2",
+          "label": "Test",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "d31f1df8-3957-4ea3-8d25-8be0da5ab940",
+          "label": "Test 2",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "3151fd73-ff08-4438-8c37-5b058314a04b",
+          "label": "Test 2.1",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "87c822d1-2afe-4dd1-bd8f-5b9143187336",
+          "label": "test duplicate product",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": true,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 3 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "047dd13c-b32d-4443-a793-e4ef44c7019e",
+          "label": "test navigator 3",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "09ac1f6c-2d4e-4f03-958d-6a1cd908efd9",
+          "label": "Test New Product Reprocessing",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "d028beb4-734a-488d-860d-20ab781c3297",
+          "label": "Test widget - All Modelled",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 3 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "2ad88a77-ac9e-4965-90ce-754b4fe5122b",
+          "label": "Test widget - Empty product",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "d5c07537-8115-4dfb-a92f-4b7eefb21e91",
+          "label": "Test widget - Empty product 2",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 1 hr",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "2c57d9fb-264b-48f5-b59d-9fc3949b8de3",
+          "label": "Test widget - None mapped",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 2 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "8607de13-7cd6-454c-b622-c094d8ec122f",
+          "label": "Test widget - one unmapped",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": true,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "1621b9f5-d34a-48ac-ab8f-11ee5cfb3cd7",
+          "label": "Test widget - some unmapped",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "2019-03-01",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "19950 days, 13 hrs, 4 mins",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "fd90942b-cdde-40fb-b601-a7beb6464660",
+          "label": "testing navigator",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "25b72a5e-5046-41b0-9d56-a56506204aeb",
+          "label": "Testing navigator 2",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "eb45f0fd-e3f8-4def-bee0-833ed88dcb46",
+          "label": "testing navigator 4",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "90fe8dde-130c-4c35-b59a-ee75c957e891",
+          "label": "V Standalone",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        },
+        {
+          "id": "de73eb9f-2198-404b-ba34-da65497fdaac",
+          "label": "Z",
+          "isMetricsProcessingDisabled": false,
+          "timeZone": "Asia/Tokyo",
+          "firstMetricDate": "",
+          "flowLoadAgingEnabled": false,
+          "isMetricsProcessingPaused": false,
+          "reprocessingProgress": {
+            "elapsedTime": "under a minute",
+            "percentComplete": 100
+          },
+          "metadata": {
+            "productOwners": [],
+            "productLifeCycleStages": [],
+            "productTypes": [],
+            "industries": [],
+            "developmentMethodologies": [],
+            "technologies": [],
+            "values": []
+          }
+        }
+      ],
+      "agents": [
+        {
+          "id": "ec4a6f83-ca8f-4065-9a80-47e6334ae224",
+          "enabled": true,
+          "inUse": true,
+          "upToDate": true,
+          "inRecovery": false
+        },
+        {
+          "id": "6f94df0c-5b02-4ca8-adfe-77b57afdc94e",
+          "enabled": true,
+          "inUse": false,
+          "upToDate": true,
+          "inRecovery": false
+        }
+      ]
+    }
+  }
+}

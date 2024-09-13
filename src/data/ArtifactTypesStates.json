@@ -1,0 +1,161 @@
+{
+    "totalArtifactsCount": 15009,
+    "project": [
+        {
+            "option": "Moodle",
+            "count": 15009
+        }
+    ],
+    "artifactTypes": [
+        {
+            "name": "Feature",
+            "options": [
+                {
+                    "tool": "N/A",
+                    "toolKind": "com.tasktop.connector.atlassian.jira",
+                    "name": "New Feature",
+                    "count": 1424
+                }
+            ]
+        },
+        {
+            "name": "Defect",
+            "options": [
+                {
+                    "tool": "N/A",
+                    "toolKind": "com.tasktop.connector.atlassian.jira",
+                    "name": "Bug",
+                    "count": 3832
+                }
+            ]
+        },
+        {
+            "name": "Risk",
+            "options": [
+                {
+                    "tool": "N/A",
+                    "toolKind": "com.tasktop.connector.atlassian.jira",
+                    "name": "Task",
+                    "count": 1434
+                }
+            ]
+        },
+        {
+            "name": "Debt",
+            "options": [
+                {
+                    "tool": "N/A",
+                    "toolKind": "com.tasktop.connector.atlassian.jira",
+                    "name": "Epic",
+                    "count": 90
+                },
+                {
+                    "tool": "N/A",
+                    "toolKind": "com.tasktop.connector.atlassian.jira",
+                    "name": "Improvement",
+                    "count": 7878
+                }
+            ]
+        },
+        {
+            "name": "Supporting",
+            "options": [
+                {
+                    "tool": "N/A",
+                    "toolKind": "com.tasktop.connector.atlassian.jira",
+                    "name": "Sub-task",
+                    "count": 351
+                }
+            ]
+        }
+    ],
+    "artifactStates": [
+        {
+            "name": "New",
+            "options": [
+                {
+                    "option": "Development in progress",
+                    "count": 222
+                },
+                {
+                    "option": "Open",
+                    "count": 1168
+                },
+                {
+                    "option": "Waiting for peer review",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "options": [
+                {
+                    "option": "Integration review in progress",
+                    "count": 8
+                },
+                {
+                    "option": "Open",
+                    "count": 233
+                },
+                {
+                    "option": "Peer review in progress",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "name": "Waiting",
+            "options": [
+                {
+                    "option": "Development in progress",
+                    "count": 20
+                },
+                {
+                    "option": "Open",
+                    "count": 2027
+                },
+                {
+                    "option": "Reopened",
+                    "count": 200
+                },
+                {
+                    "option": "Waiting for integration review",
+                    "count": 36
+                },
+                {
+                    "option": "Waiting for peer review",
+                    "count": 132
+                }
+            ]
+        },
+        {
+            "name": "Done",
+            "options": [
+                {
+                    "option": "Closed",
+                    "count": 2519
+                },
+                {
+                    "option": "Peer review in progress",
+                    "count": 15
+                }
+            ]
+        },
+        {
+            "name": "Canceled",
+            "options": [
+                {
+                    "option": "Closed",
+                    "count": 8420
+                }
+            ]
+        }
+    ],
+    "tool": [
+        {
+            "option": "N/A",
+            "count": 15009
+        }
+    ]
+}

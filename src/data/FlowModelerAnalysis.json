@@ -1,0 +1,2229 @@
+{
+  "types": [
+      {
+          "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-New Feature",
+          "typeLabel": "New Feature",
+          "projectLabels": [
+              "Moodle",
+              "Moodle app"
+          ],
+          "flowItems": [
+              "feature"
+          ],
+          "repository": {
+              "id": "2be2f714-8320-4aef-b2ef-5582efd9775c",
+              "label": "Moodle Jira 1",
+              "connectorKind": "com.tasktop.connector.atlassian.jira"
+          },
+          "artifactSets": [
+              {
+                  "id": "af71608d-80f6-4859-bfa9-4db932cb4ace",
+                  "phase": "create"
+              }
+          ],
+          "ideate": {
+              "label": "Ideate",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In review"
+              ]
+          },
+          "create": {
+              "label": "Create",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened"
+              ]
+          },
+          "release": {
+              "label": "Release",
+              "stateKeys": []
+          },
+          "operate": {
+              "label": "Operate",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress"
+              ]
+          },
+          "states": {
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Open": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "label": "Open",
+                  "flowStates": [
+                      "new",
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "label": "Development in progress",
+                  "flowStates": [
+                      "waiting",
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 18,
+                      "stateDurationIndex": 0.15427769985974754
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "label": "Waiting for integration review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "label": "Reopened",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 17,
+                      "stateDurationIndex": 0.18478260869565216
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "label": "Closed",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "label": "Integration review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 5,
+                      "stateDurationIndex": 0.3423705041956878
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "label": "Waiting for testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.0003506311360448808
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "label": "Testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.0007012622720897616
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "label": "Tested",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.0017531556802244039
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "label": "Problem during testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "label": "Waiting for peer review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 7,
+                      "stateDurationIndex": 0.07433380084151472
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "label": "Peer review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.01367461430575035
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "label": "Waiting for security testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "label": "Security testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "label": "Waiting for release",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "label": "Security test failed",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "label": "Resolved",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "label": "In Progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "label": "In review",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              }
+          },
+          "manualSteps": {}
+      },
+      {
+          "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Epic",
+          "typeLabel": "Epic",
+          "projectLabels": [
+              "Moodle",
+              "Moodle app",
+              "MoodleNet"
+          ],
+          "flowItems": [
+              "feature"
+          ],
+          "repository": {
+              "id": "2be2f714-8320-4aef-b2ef-5582efd9775c",
+              "label": "Moodle Jira 1",
+              "connectorKind": "com.tasktop.connector.atlassian.jira"
+          },
+          "artifactSets": [
+              {
+                  "id": "af71608d-80f6-4859-bfa9-4db932cb4ace",
+                  "phase": "create"
+              }
+          ],
+          "ideate": {
+              "label": "Ideate",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Backlog"
+              ]
+          },
+          "create": {
+              "label": "Create",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved"
+              ]
+          },
+          "release": {
+              "label": "Release",
+              "stateKeys": []
+          },
+          "operate": {
+              "label": "Operate",
+              "stateKeys": []
+          },
+          "states": {
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Open": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "label": "Open",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "label": "Development in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 9,
+                      "stateDurationIndex": 0.5397489539748954
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "label": "Waiting for integration review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "label": "Reopened",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 3,
+                      "stateDurationIndex": 0.19456066945606695
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "label": "Closed",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "label": "Integration review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "label": "Waiting for testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "label": "Testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "label": "Tested",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "label": "Problem during testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "label": "Waiting for peer review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "label": "Peer review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "label": "Waiting for security testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "label": "Security testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "label": "Waiting for release",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "label": "Security test failed",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "label": "Resolved",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "label": "In Progress",
+                  "flowStates": [
+                      "waiting",
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 1,
+                      "stateDurationIndex": 2.5833333333333335
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "label": "In review",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-New": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "label": "New",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!",
+                  "label": "Done!",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 4,
+                      "stateDurationIndex": 20.666666666666668
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "label": "On Hold",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "label": "To Do",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Backlog": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Backlog",
+                  "label": "Backlog",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              }
+          },
+          "manualSteps": {}
+      },
+      {
+          "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Improvement",
+          "typeLabel": "Improvement",
+          "projectLabels": [
+              "Moodle",
+              "Moodle app"
+          ],
+          "flowItems": [
+              "feature"
+          ],
+          "repository": {
+              "id": "2be2f714-8320-4aef-b2ef-5582efd9775c",
+              "label": "Moodle Jira 1",
+              "connectorKind": "com.tasktop.connector.atlassian.jira"
+          },
+          "artifactSets": [
+              {
+                  "id": "af71608d-80f6-4859-bfa9-4db932cb4ace",
+                  "phase": "create"
+              }
+          ],
+          "ideate": {
+              "label": "Ideate",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In review"
+              ]
+          },
+          "create": {
+              "label": "Create",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved"
+              ]
+          },
+          "release": {
+              "label": "Release",
+              "stateKeys": []
+          },
+          "operate": {
+              "label": "Operate",
+              "stateKeys": []
+          },
+          "states": {
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Open": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "label": "Open",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "label": "Development in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 126,
+                      "stateDurationIndex": 0.3978289912490661
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "label": "Waiting for integration review",
+                  "flowStates": [
+                      "waiting",
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 15,
+                      "stateDurationIndex": 0.05861963982766529
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "label": "Reopened",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 120,
+                      "stateDurationIndex": 0.33770999251178957
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "label": "Closed",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "label": "Integration review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 5,
+                      "stateDurationIndex": 0.05217926380905264
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "label": "Waiting for testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 2,
+                      "stateDurationIndex": 0.26374023664118423
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "label": "Testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 4,
+                      "stateDurationIndex": 0.05725734063517307
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "label": "Tested",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 7,
+                      "stateDurationIndex": 0.1490328419690016
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "label": "Problem during testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 2,
+                      "stateDurationIndex": 0.016930022573363433
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "label": "Waiting for peer review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 57,
+                      "stateDurationIndex": 0.11319558879452402
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "label": "Peer review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 4,
+                      "stateDurationIndex": 0.012042083914311066
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "label": "Waiting for security testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "label": "Security testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "label": "Waiting for release",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "label": "Security test failed",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "label": "Resolved",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "label": "In Progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "label": "In review",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              }
+          },
+          "manualSteps": {}
+      },
+      {
+          "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Story",
+          "typeLabel": "Story",
+          "projectLabels": [
+              "Moodle app",
+              "MoodleNet"
+          ],
+          "flowItems": [
+              "feature"
+          ],
+          "repository": {
+              "id": "2be2f714-8320-4aef-b2ef-5582efd9775c",
+              "label": "Moodle Jira 1",
+              "connectorKind": "com.tasktop.connector.atlassian.jira"
+          },
+          "artifactSets": [
+              {
+                  "id": "af71608d-80f6-4859-bfa9-4db932cb4ace",
+                  "phase": "create"
+              }
+          ],
+          "ideate": {
+              "label": "Ideate",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!"
+              ]
+          },
+          "create": {
+              "label": "Create",
+              "stateKeys": []
+          },
+          "release": {
+              "label": "Release",
+              "stateKeys": []
+          },
+          "operate": {
+              "label": "Operate",
+              "stateKeys": []
+          },
+          "states": {
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Open": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "label": "Open",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "label": "Development in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "label": "Waiting for integration review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "label": "Reopened",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "label": "Closed",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "label": "Integration review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "label": "Waiting for testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "label": "Testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "label": "Waiting for peer review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "label": "Peer review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "label": "Resolved",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "label": "In Progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-New": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "label": "New",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!",
+                  "label": "Done!",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "label": "On Hold",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "label": "To Do",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              }
+          },
+          "manualSteps": {}
+      },
+      {
+          "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Bug",
+          "typeLabel": "Bug",
+          "projectLabels": [
+              "Moodle",
+              "Moodle app",
+              "MoodleNet"
+          ],
+          "flowItems": [
+              "defect",
+              "risk"
+          ],
+          "repository": {
+              "id": "2be2f714-8320-4aef-b2ef-5582efd9775c",
+              "label": "Moodle Jira 1",
+              "connectorKind": "com.tasktop.connector.atlassian.jira"
+          },
+          "artifactSets": [
+              {
+                  "id": "af71608d-80f6-4859-bfa9-4db932cb4ace",
+                  "phase": "create"
+              }
+          ],
+          "ideate": {
+              "label": "Ideate",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!"
+              ]
+          },
+          "create": {
+              "label": "Create",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved"
+              ]
+          },
+          "release": {
+              "label": "Release",
+              "stateKeys": []
+          },
+          "operate": {
+              "label": "Operate",
+              "stateKeys": []
+          },
+          "states": {
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Open": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "label": "Open",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "label": "Development in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 87,
+                      "stateDurationIndex": 0.21273835421470833
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "label": "Waiting for integration review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 18,
+                      "stateDurationIndex": 0.044494802127759914
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "label": "Reopened",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 109,
+                      "stateDurationIndex": 0.1751866445458316
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "label": "Closed",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "label": "Integration review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 2,
+                      "stateDurationIndex": 0.006596497104500389
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "label": "Waiting for testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 4,
+                      "stateDurationIndex": 0.29482356134964505
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "label": "Testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 3,
+                      "stateDurationIndex": 0.05435062571571261
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "label": "Tested",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 6,
+                      "stateDurationIndex": 0.09369713400558422
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "label": "Problem during testing",
+                  "flowStates": [
+                      "waiting",
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "label": "Waiting for peer review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 67,
+                      "stateDurationIndex": 0.11017212774782248
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "label": "Peer review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 13,
+                      "stateDurationIndex": 0.018871837411862297
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "label": "Waiting for security testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "label": "Security testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "label": "Waiting for release",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "label": "Security test failed",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "label": "Resolved",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "label": "In Progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "label": "In review",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-New": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "label": "New",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!",
+                  "label": "Done!",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "label": "On Hold",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "label": "To Do",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              }
+          },
+          "manualSteps": {}
+      },
+      {
+          "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Task",
+          "typeLabel": "Task",
+          "projectLabels": [
+              "Moodle",
+              "Moodle app",
+              "MoodleNet"
+          ],
+          "flowItems": [
+              "debt"
+          ],
+          "repository": {
+              "id": "2be2f714-8320-4aef-b2ef-5582efd9775c",
+              "label": "Moodle Jira 1",
+              "connectorKind": "com.tasktop.connector.atlassian.jira"
+          },
+          "artifactSets": [
+              {
+                  "id": "af71608d-80f6-4859-bfa9-4db932cb4ace",
+                  "phase": "create"
+              }
+          ],
+          "ideate": {
+              "label": "Ideate",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!"
+              ]
+          },
+          "create": {
+              "label": "Create",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed"
+              ]
+          },
+          "release": {
+              "label": "Release",
+              "stateKeys": []
+          },
+          "operate": {
+              "label": "Operate",
+              "stateKeys": []
+          },
+          "states": {
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Open": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "label": "Open",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "label": "Development in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 23,
+                      "stateDurationIndex": 0.6645001547508511
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "label": "Waiting for integration review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 4,
+                      "stateDurationIndex": 0.10186474775611265
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "label": "Reopened",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 5,
+                      "stateDurationIndex": 0.05118384401114206
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "label": "Closed",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "label": "Integration review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.008704735376044569
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "label": "Waiting for testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.0010445682451253482
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "label": "Testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.0020891364902506965
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "label": "Tested",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.014623955431754874
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "label": "Problem during testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "label": "Waiting for peer review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 3,
+                      "stateDurationIndex": 0.05466573816155989
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "label": "Peer review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.010445682451253482
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "label": "Waiting for security testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "label": "Security testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "label": "Waiting for release",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "label": "Security test failed",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "label": "Resolved",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "label": "In Progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "label": "In review",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-New": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "label": "New",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!",
+                  "label": "Done!",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "label": "On Hold",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "label": "To Do",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              }
+          },
+          "manualSteps": {}
+      },
+      {
+          "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Sub-task",
+          "typeLabel": "Sub-task",
+          "projectLabels": [
+              "Moodle",
+              "Moodle app",
+              "MoodleNet"
+          ],
+          "flowItems": [
+              "supporting"
+          ],
+          "repository": {
+              "id": "2be2f714-8320-4aef-b2ef-5582efd9775c",
+              "label": "Moodle Jira 1",
+              "connectorKind": "com.tasktop.connector.atlassian.jira"
+          },
+          "artifactSets": [
+              {
+                  "id": "af71608d-80f6-4859-bfa9-4db932cb4ace",
+                  "phase": "create"
+              }
+          ],
+          "ideate": {
+              "label": "Ideate",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!"
+              ]
+          },
+          "create": {
+              "label": "Create",
+              "stateKeys": [
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved"
+              ]
+          },
+          "release": {
+              "label": "Release",
+              "stateKeys": []
+          },
+          "operate": {
+              "label": "Operate",
+              "stateKeys": []
+          },
+          "states": {
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Open": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Open",
+                  "label": "Open",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Development in progress",
+                  "label": "Development in progress",
+                  "flowStates": [
+                      "waiting",
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 7,
+                      "stateDurationIndex": 1.0707070707070707
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for integration review",
+                  "label": "Waiting for integration review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.27272727272727276
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Reopened",
+                  "label": "Reopened",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 4,
+                      "stateDurationIndex": 1.2626262626262628
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Closed",
+                  "label": "Closed",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Integration review in progress",
+                  "label": "Integration review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for testing",
+                  "label": "Waiting for testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Testing in progress",
+                  "label": "Testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Tested",
+                  "label": "Tested",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Problem during testing",
+                  "label": "Problem during testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for peer review",
+                  "label": "Waiting for peer review",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 1,
+                      "stateDurationIndex": 0.15151515151515152
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Peer review in progress",
+                  "label": "Peer review in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0.06060606060606061
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for security testing",
+                  "label": "Waiting for security testing",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security testing in progress",
+                  "label": "Security testing in progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Waiting for release",
+                  "label": "Waiting for release",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Security test failed",
+                  "label": "Security test failed",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Resolved",
+                  "label": "Resolved",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In Progress",
+                  "label": "In Progress",
+                  "flowStates": [
+                      "active"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-In review": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-In review",
+                  "label": "In review",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-New": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-New",
+                  "label": "New",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-Done!",
+                  "label": "Done!",
+                  "flowStates": [
+                      "done"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-On Hold",
+                  "label": "On Hold",
+                  "flowStates": [
+                      "waiting"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              },
+              "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do": {
+                  "key": "2be2f714-8320-4aef-b2ef-5582efd9775c-To Do",
+                  "label": "To Do",
+                  "flowStates": [
+                      "new"
+                  ],
+                  "bottleneck": {
+                      "currentArtifactCount": 0,
+                      "stateDurationIndex": 0
+                  },
+                  "isManualStep": false
+              }
+          },
+          "manualSteps": {}
+      }
+  ],
+  "maximumArtifactCount": 126,
+  "maximumStateDurationIndex": 20.666666666666668
+}

@@ -1,0 +1,15 @@
+#root {
+    background-color: white;
+}
+
+.tile-parent::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    width: 100%;
+    height: 100%;
+    border: 4px solid transparent;
+    border-color: purple;
+    background-color: purple;
+}
